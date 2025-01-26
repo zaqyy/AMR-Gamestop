@@ -1,0 +1,282 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background-color: #333;
+    color: #fefbfb;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Container */
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: grey;
+  }
+  
+  /* Logo */
+  #logo {
+    height: 60px;
+    width: 60px;
+  }
+  
+  /* Main Heading */
+  .main-heading a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    
+  }
+  
+  .main-heading{
+    margin-left: 70px;
+    
+  }
+  
+  /* Search Bar */
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border:#3a86ff;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #5a5aff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #555;
+    padding: 0.5rem 2rem;
+  }
+  
+  .navbar-content {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .navbar-content li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-content li a:hover {
+    color: #5a5aff;
+    text-decoration: underline;
+  }
+  
+  .image-container img{
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 3%;
+  }
+
+  .navbar-content a.active{
+    color: aqua;
+    text-decoration: underline;
+  }
+
+/*Footer Style*/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+
+.logo-footer h1{
+    color: #fff;
+    font-family: 'orbitron', sans-serif;
+}
+  
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+  
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+  
+}
+  
+.social-icons i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+  
+.social-icons i:hover {
+    color: #048BA8;
+}
+  
+.contact-section {
+      text-align: left;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+}
+  
+.contact-section p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-left: 31%;
+}
+  
+.contact-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      gap: 10px;
+}
+  
+.contact-info i {
+      font-size: 20px;
+      color:#048BA8;
+}
+    
+.footer-bottom {
+      margin-top: 20px;
+}
+  
+.footer-bottom p {
+      font-size: 14px;
+      color: #aaa;
+      padding-top: 2%;
+} 
+
+.contact-info a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* games card container  */
+  .games-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 35px;
+
+
+  }
+
+  /* games card styleing */
+  .games-card{
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+  }
+
+  .image-container{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image-container img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .image-container:hover img{
+    transform: scale(1.1);
+  }
+
+  /* hover description */
+  .description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8) ;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 15px;
+    font-size: larger;
+    font-family: 'Montserrat', serif;
+  }
+
+  .image-container:hover .description{
+    opacity: 1;
+  }
+
+  /* fame info section  */
+  .games-info{
+    padding: 15px;
+  }
+
+  .games-info h2{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    color: #048BA8;
+    font-family: "Varela Round", serif;
+  }
+
+  .games-info p{
+    font-size: larger;
+    margin-bottom: 5px;
+    color: #dddddd;
+    font-family: 'Montserrat', serif;
+  }
+
+  .games-info p strong{
+    color: #fff;
+  }

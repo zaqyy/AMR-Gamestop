@@ -1,0 +1,297 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background-color: #333;
+    color: #fefbfb;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Container */
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: grey;
+  }
+  
+  /* Logo */
+  #logo {
+    height: 60px;
+    width: 60px;
+  }
+  
+  /* Main Heading */
+  .main-heading a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    
+  }
+  
+  .main-heading{
+    margin-left: 70px;
+    
+  }
+  
+  /* Search Bar */
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border:#3a86ff;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #5a5aff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #555;
+    padding: 0.5rem 2rem;
+  }
+  
+  .navbar-content {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .navbar-content li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-content li a:hover {
+    color: #5a5aff;
+    text-decoration: underline;
+  }
+  
+  .image-container img{
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 3%;
+  }
+
+  .navbar-content a.active{
+    color: aqua;
+    text-decoration: underline;
+  }
+
+/*Footer Style*/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 45px;
+  }
+  
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}                                                 
+  
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+  
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'orbitron', sans-serif;
+}
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+  
+}
+  
+.social-icons i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+  
+.social-icons i:hover {
+    color: #048BA8;
+}
+  
+.contact-section {
+      text-align: left;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+}
+  
+.contact-section p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-left: 31%;
+}
+  
+.contact-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      gap: 10px;
+}
+  
+.contact-info i {
+      font-size: 20px;
+      color:#048BA8;
+}
+    
+.footer-bottom {
+      margin-top: 20px;
+}
+  
+.footer-bottom p {
+      font-size: 14px;
+      color: #aaa;
+      padding-top: 2%;
+} 
+
+.contact-info a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+      /* the whole above is the common css for all webpages */
+
+      /* Branches Section */
+.branches {
+    padding: 0px;
+}
+
+/* BRANCH 1 */
+.branch-1 {
+  display: flex;
+  margin-top: 45px;
+}
+
+.branch-1 img {
+  width: 350px;
+  margin-left: 10px;
+
+}
+
+.textarea{
+  background-color:#555;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Poppins", serif;
+}
+
+.textarea p {
+  margin-left: 10px;
+}
+
+.branch-1-text h3{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: x-large;
+  font-family: 'varela round', sans-serif;
+}
+
+/* BRANCH 2 */
+
+.branch-2 {
+  display: flex;
+  margin-top: 45px;
+}
+
+.branch-2 img {
+  width: 350px;
+  margin-left: 10px;
+
+}
+
+.textarea{
+  background-color:#555;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Exo", serif;
+}
+
+.textarea p {
+  margin-left: 10px;
+}
+
+.branch-2-text h3{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: x-large;
+  font-family: 'varela round', sans-serif;
+}
+
+.branches-intro{
+  background-color: #048BA8;
+  margin-top: 20px;
+  font-size: x-large;
+}
+
+.branches-heading{
+  text-align: center;
+  font-family: 'press start 2p', serif;
+  margin-top: 45px;
+  
+}
+
+.store table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 45px;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.store th, td{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid#000000;
+}
+
+.store th{
+  font-size: x-large;
+  font-family: 'Exo';
+}
+
+.store td{
+  font-size: larger;
+  font-family: 'Montserrat';
+}

@@ -1,0 +1,21 @@
+{
+  "name": "AMR Gamestop",
+  "short_name": "AMR Gamestop",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "A fun and engaging gaming website offering exciting features and games.",
+  "icons": [
+    {
+      "src": "DALL·E 2025-01-07 21.58.56 - A sleek, modern logo design for a gaming website named 'AMR Gamestop,' featuring a stylized VR headset or VR box as the central element. The design is.webp",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "DALL·E 2025-01-07 21.58.56 - A sleek, modern logo design for a gaming website named 'AMR Gamestop,' featuring a stylized VR headset or VR box as the central element. The design is.webp",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

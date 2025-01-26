@@ -1,0 +1,481 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fefbfb;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Container */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: grey;
+}
+
+/* Logo */
+#logo {
+  height: 60px;
+  width: 60px;
+}
+
+/* Main Heading */
+.main-heading a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  
+}
+
+.main-heading{
+  margin-left: 70px;
+  
+}
+
+/* Search Bar */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 0.5rem;
+  border:#3a86ff;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #5a5aff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #555;
+  padding: 0.5rem 2rem;
+}
+
+.navbar-content {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.navbar-content li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-content li a:hover {
+  color: #5a5aff;
+  text-decoration: underline;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 3%;
+}
+
+.navbar-content a.active{
+  color: aqua;
+  text-decoration: underline;
+}
+
+.homepage-heading h2{
+     text-align: start;   /* not needed  */
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#hp-para1{
+    text-align: center;
+    font-size: larger;
+}
+
+/*Footer Style*/
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+
+.logo-footer h1 {
+  font-size: 24px;
+  margin: 0;
+  font-family: 'orbitron', sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 10px;
+
+}
+
+.social-icons i {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #048BA8;
+}
+
+  .contact-section {
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .contact-section p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 31%;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .contact-info i {
+    font-size: 20px;
+    color:#048BA8;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+
+  .footer-bottom p {
+    font-size: 14px;
+    color: #aaa;
+    padding-top: 2%;
+  }
+
+  .info{
+    margin-top: 20px;
+  }
+
+  .welcome-message{
+    font-family: 'press start 2p', serif;
+    margin-top: 45px;
+    text-align: center;
+  }
+
+  .text {
+    font-family: 'Exo', sans-serif;
+    margin-top: 45px;
+    background-color:#048BA8;
+    
+  }
+
+  .text h2{
+    text-align: center;
+  }
+
+  #hp-para1{
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: x-large;
+
+  }
+
+  .available-offers h3{
+    margin-top: 45px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .available-offers-1{
+    display: flex;
+    background-color:#2b2b2b;
+    margin-top: 20px;
+    transition: transform 0.7s ease-in-out;
+    
+  }
+
+  .available-offers-1 img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+
+  .available-offers-1 h4:hover{
+    transform: scale(1);
+    cursor: pointer;   
+    text-decoration: underline;
+    color: #048BA8; 
+  }
+ 
+  .available-offers-1 img{
+    width: 300px;
+    margin-top: 75px;
+    
+  }
+
+  .text1-container{
+    margin-left: 20px;
+  }
+
+  .text1-container h4{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Varela Round", serif;
+    font-size: larger;
+    
+
+  }
+
+  .text1-container p{
+    margin-top: 30px;
+    font-size: large;
+    font-family: "Montserrat", serif;
+  }
+
+  .text1-container-price{
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+  }
+
+  .text1-container-price p1{
+    font-size: larger;
+  }
+
+  .text1-container-price p2{
+    font-size: smaller;
+    margin-top: 5.5px;
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+  /* product 2 */
+
+  .available-offers h3{
+    margin-top: 45px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .available-offers-2{
+    display: flex;
+    background-color:#2b2b2b;
+    margin-top: 20px;
+    transition: transform 0.7s ease-in-out;
+    
+  }
+
+  .available-offers-2 img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+
+  .available-offers-2 h4:hover{
+    transform: scale(1);
+    cursor: pointer;   
+    text-decoration: underline;
+    color: #048BA8; 
+  }
+ 
+  .available-offers-2 img{
+    width: 170px;
+    margin-top: 65px;
+    margin-left: 37px;
+    
+  }
+
+  .text2-container{
+    margin-left: 110px;
+  }
+
+  .text2-container h4{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Varela Round", serif;
+    font-size: larger;
+    
+
+  }
+
+  .text2-container p{
+    margin-top: 30px;
+    font-size: large;
+    font-family: "Montserrat", serif;
+  }
+
+  .text2-container-price{
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+  }
+
+  .text2-container-price p1{
+    font-size: larger;
+  }
+
+  .text2-container-price p2{
+    font-size: smaller;
+    margin-top: 5.5px;
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+  .text1-container a h4{
+    text-decoration:none;
+    color: #fff;
+  }
+
+  .text2-container a h4{
+    text-decoration:none;
+    color: #fff;
+  }
+
+  /* product 3 */
+
+  .available-offers h3{
+    margin-top: 45px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .available-offers-3{
+    display: flex;
+    background-color:#2b2b2b;
+    margin-top: 20px;
+    transition: transform 0.7s ease-in-out;
+    
+  }
+
+  .available-offers-3 img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+
+  .available-offers-3 h4:hover{
+    transform: scale(1);
+    cursor: pointer;   
+    text-decoration: underline;
+    color: #048BA8; 
+  }
+ 
+  .available-offers-3 img{
+    width: 170px;
+    margin-top: 65px;
+    margin-left: 37px;
+    
+  }
+
+  .text3-container{
+    margin-left: 110px;
+  }
+
+  .text3-container h4{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Varela Round", serif;
+    font-size: larger;
+    
+
+  }
+
+  .text3-container p{
+    margin-top: 30px;
+    font-size: large;
+    font-family: "Montserrat", serif;
+  }
+
+  .text3-container-price{
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+  }
+
+  .text3-container-price p1{
+    font-size: larger;
+  }
+
+  .text3-container-price p2{
+    font-size: smaller;
+    margin-top: 5.5px;
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+  .text3-container a h4{
+    text-decoration:none;
+    color: #fff;
+  }
+
+  .text3-container a h4{
+    text-decoration:none;
+    color: #fff;
+  }
+
+  .feature_list{
+    margin-left: 110px;
+    margin-top: 20px;
+    color: #00ffcc;
+  }
+
+  .features{
+    font-family: "Montserrat", serif; ;
+    color: #00ffcc;
+  }
+
+  .features p{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info a{
+    color: #fff;
+    text-decoration: none;
+  }
