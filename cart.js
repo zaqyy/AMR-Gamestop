@@ -27,7 +27,41 @@ const items = {
     "qty22": { name: "Intel® Core™ i3 Processor", price: 41500.00 },
     "qty23": { name: "AMD Ryzen™ 9 7950X Desktop Processor", price: 186500.00 },
     "qty24": { name: "AMD Ryzen™ 7 7700X Desktop Processor", price: 110500.00 },
-    "qty25": { name: "AMD Ryzen™ 5 7600X Desktop Processor", price: 72000.00 }
+    "qty25": { name: "AMD Ryzen™ 5 7600X Desktop Processor", price: 72000.00 },
+
+    // Graphic cards
+    "qty26": { name: "GeForce RTX™ 4060 VENTUS 2X WHITE 8G OC", price: 125000.00 },
+    "qty27": { name: "GeForce GTX 1660 SUPER™ VENTUS XS OC", price: 96000.00 },
+    "qty28": { name: "GeForce GTX 1050 Ti 4GT OCV1", price: 61000.00 },
+    "qty29": { name: "TUF Gaming GeForce RTX™ 3070 Ti OC Edition", price: 473500.00 },
+    "qty30": { name: "TUF Gaming GeForce RTX™ 3080 Ti OC Edition", price: 530000.00 },
+    "qty31": { name: "Asus ROG Strix GeForce RTX™ 3060 V2 OC Edition", price: 291667.00 },
+    "qty32": { name: "GeForce RTX™ 4060 Ti GAMING X 8G", price: 235500.00 },
+
+    // motherboard
+    "qty33": { name: "X570-A PRO", price: 73000.00 },
+    "qty34": { name: "B450 GAMING PLUS MAX", price: 43500.00 },
+    "qty35": { name: "Z790 GAMING PLUS WIFI", price: 99500.00 },
+    "qty36": { name: "MAG B650 TOMAHAWK WIFI", price: 93000.00 },
+    "qty37": { name: "B650 GAMING PLUS WIFI", price: 76000.00 },
+    "qty38": { name: "B450M PRO-VDH", price: 31500.00 },
+    "qty39": { name: "MPG B550 GAMING PLUS", price: 65000.00 },
+
+    //memory
+    "qty40": { name: "VENGEANCE® LPX 16GB (2 x 8GB) DDR4 3200MHz C16", price: 13500.00 },
+    "qty41": { name: "VENGEANCE® RGB 48GB (2x24GB) DDR5 5200MT/s CL38", price: 107500.00 },
+    "qty42": { name: "DOMINATOR® PLATINUM RGB 32GB (2 x 16GB) DDR4 3200MHz C16", price: 51000.00 },
+    "qty43": { name: "VENGEANCE® RGB 32GB (2x16GB) DDR5 5600MT/s CL36", price: 17500.00 },
+
+    // storage devices
+    "qty44": { name: "WD Elements Portable - 1TB", price: 2750.00 },
+    "qty45": { name: "Baseus SSD Enclosure Type-C GEN2", price: 9850.00 },
+    "qty46": { name: "JetFlash 700/730 USB Drive", price: 3500.00 },
+    "qty47": { name: "JetFlash 930C USB Drive", price: 21500.00 },
+    "qty48": { name: "SanDisk Desk Drive - 8TB", price: 249900.00 },
+    "qty49": { name: "SPATIUM S270 SATA 2.5", price: 11500.00 },
+    "qty50": { name: "ADATA SD620 External SSD", price: 27900.00 }
+
 
   };
   
