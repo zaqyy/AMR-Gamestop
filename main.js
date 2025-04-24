@@ -47,4 +47,6 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('appinstalled', () => {
     console.log('PWA has been installed');
   });
+
+  
   

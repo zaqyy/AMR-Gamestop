@@ -5,6 +5,7 @@
     <title>AMR Gamestop</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="consoles.css">
+    <link rel="stylesheet" href="cart.css">
     <link rel="icon" href="favicon-32x32.png">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
@@ -40,6 +41,7 @@
                 <li><a href="upcoming.html">Upcoming Games</a></li>
                 <li><a href="consoles.html"class="active">Consoles</a></li>
                 <li><a href="Accessories.html">Accessories</a></li>
+                <li><a href="components.html">Components</a></li>
                 <li><a href="faq.html">FAQ's</a></li>
             </ul>
         </nav>
@@ -54,6 +56,10 @@
             </div>
             <div class="games-desc">
               <h2>XBOX Series X Galaxy Black</h2>
+              <div class="quantity">
+                <label for="qty8">Qty:</label>
+                <input type="number" id="qty8" min="0" value="0">
+              </div>
             </div>
           </div>
       
@@ -65,6 +71,10 @@
             </div>
             <div class="games-desc">
               <h2>XBOX Series X Carbon Black</h2>
+              <div class="quantity">
+                <label for="qty9">Qty:</label>
+                <input type="number" id="qty9" min="0" value="0">
+              </div>
             </div>
           </div>
       
@@ -76,6 +86,10 @@
             </div>
             <div class="games-desc">
               <h2>XBOX Series S All Digital Robot White</h2>
+              <div class="quantity">
+                <label for="qty10">Qty:</label>
+                <input type="number" id="qty10" min="0" value="0">
+              </div>
             </div>
           </div>
       
@@ -87,6 +101,10 @@
             </div>
             <div class="games-desc">
               <h2>XBOX Series X All Digital Robot White</h2>
+              <div class="quantity">
+                <label for="qty11">Qty:</label>
+                <input type="number" id="qty11" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -98,6 +116,10 @@
             </div>
             <div class="games-desc">
               <h2>PlayStation 5 Console</h2>
+              <div class="quantity">
+                <label for="qty12">Qty:</label>
+                <input type="number" id="qty12" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -109,6 +131,10 @@
             </div>
             <div class="games-desc">
               <h2>PlayStation 5 Pro Console</h2>
+              <div class="quantity">
+                <label for="qty13">Qty:</label>
+                <input type="number" id="qty13" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -120,6 +146,10 @@
             </div>
             <div class="games-desc">
               <h2>DualSense Edge™ Wireless Controller</h2>
+              <div class="quantity">
+                <label for="qty14">Qty:</label>
+                <input type="number" id="qty14" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -131,6 +161,10 @@
             </div>
             <div class="games-desc">
               <h2>DualSense™ Wireless Controller</h2>
+              <div class="quantity">
+                <label for="qty15">Qty:</label>
+                <input type="number" id="qty15" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -142,6 +176,10 @@
             </div>
             <div class="games-desc">
               <h2>Nintendo Switch Lite</h2>
+              <div class="quantity">
+                <label for="qty16">Qty:</label>
+                <input type="number" id="qty16" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -153,6 +191,10 @@
             </div>
             <div class="games-desc">
               <h2>Nintendo Switch – OLED Model</h2>
+              <div class="quantity">
+                <label for="qty17">Qty:</label>
+                <input type="number" id="qty17" min="0" value="0">
+              </div>
             </div>
           </div>
 
@@ -164,13 +206,40 @@
             </div>
             <div class="games-desc">
               <h2>Nintendo Switch</h2>
+              <div class="quantity">
+                <label for="qty18">Qty:</label>
+                <input type="number" id="qty18" min="0" value="0">
+              </div>
             </div>
           </div>
+
+          
+        </div>
+        <div class="buttons">
+          <button onclick="addToCart()" title="Add Selected items to your Cart"><i class='bx bx-cart'></i> Add to Cart</button>
+          <button onclick="saveFavourite()" title="Save your current cart as favourite"><i class='bx bx-bookmark'></i> Add to Favourites</button>
+          <button onclick="applyFavourite()" title="Load your saved favourite cart"><i class='bx bx-refresh'></i> Apply Favourites</button>
+          <button onclick="buyNow()" title="Go to checkout and complete your purchase"><i class='bx bx-credit-card'></i> Buy Now</button>
+          
+        </div>
+        <table id="cart-table">
+          <thead>
+            <tr><th>Items</th><th>Qty</th><th>Price</th><th>Action</th></tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot>
+            <tr><td colspan="2">Total</td><td id="total">0</td></tr>
+          </tfoot>
+        </table>
+        <div class="buttons">
+          <button onclick="clearFavourites()" title="Remove saved favourite from local storage"><i class='bx bx-trash-alt'></i> Clear Favourites
+          </button>
         </div>
       </section>
       
 
     <script src="main.js"></script>
+    <script src="cart.js"></script>
 </body>
 <footer>
 

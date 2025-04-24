@@ -1,0 +1,73 @@
+.quantity {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.quantity input{
+    width: 60px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+/* CSS for the buttons */
+.buttons {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #5a5aff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #3a3aff;
+  }
+
+  .buttons i {
+    font-size: 18px;
+  }
+
+/* for the table */
+#cart-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #444;
+    color: #fff;
+    font-family: 'varela round', sans-serif;
+}
+
+#cart-table th, #cart-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  
+/* for the remove button on individual products */
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.remove-btn:hover {
+    background-color: #e60000;
+}

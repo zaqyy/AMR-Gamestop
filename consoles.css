@@ -237,6 +237,15 @@ footer {
     color: #aaa;
   }
 
+  .games-desc a{
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  .games-desc a:hover {
+    text-decoration: underline;
+  }
+
   .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
